@@ -1,0 +1,17 @@
+.basket {
+  display: flex;
+  background: white;
+}
+
+.basket__title {
+  padding-left: 3em;
+  margin: 1em 0;
+  font-weight: 600;
+}
+.line {
+  border-bottom: 1px solid lightgray;
+}
+.basket__text {
+  margin-left: 4em;
+  margin-bottom: 2em;
+}

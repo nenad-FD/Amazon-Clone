@@ -1,0 +1,21 @@
+.basket__product {
+  display: flex;
+  padding: 1em;
+}
+.basketProduct__img {
+  object-fit: contain;
+  height: 180px;
+  width: 180px;
+  margin: 0 1em;
+}
+.basketProductInfo__title,
+.basketProductInfo__number {
+  font-weight: 600;
+}
+.basketProduct__btn {
+  background-color: #f0c14b;
+  border: 1px solid #cd9042;
+  margin-top: 1em;
+  padding: 0.2em 0.8em;
+  cursor: pointer;
+}

@@ -1,0 +1,34 @@
+.product {
+  background: white;
+  max-height: 400px;
+  min-width: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  padding: 1em;
+}
+.product__info {
+  margin-left: 1em;
+}
+.product__price {
+  margin: 0.3em 0;
+}
+.product__priceNumber {
+  font-weight: 600;
+}
+.product__ratingStar {
+  color: #cd9042;
+}
+.product__img {
+  object-fit: contain;
+  max-height: 200px;
+}
+.product__btn {
+  background-color: #f0c14b;
+  border: 1px solid #cd9042;
+  max-width: 200px;
+  padding: 0.2em 0.8em;
+  margin: 1.5em auto;
+  cursor: pointer;
+}
